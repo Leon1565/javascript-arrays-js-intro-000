@@ -21,3 +21,19 @@ function accessElementInArray(array, index){
   return array[index];
 }
 accessElementInArray([1, 2, 3], 2);
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  return 
+}
+
+
+  describe('destructivelyRemoveElementFromBeginningOfArray(array)', ()=>{
+    it('returns the array with the first element removed', () => {
+      expect(destructivelyRemoveElementFromBeginningOfArray([1, 2, 3])).to.eql([2, 3])
+    })
+    
+    it('alters the original array', ()=>{
+      const array = [1, 2, 3];
+      destructivelyRemoveElementFromBeginningOfArray(array);
+      expect(array).to.eql([2, 3]);
+    })
+  })
