@@ -35,6 +35,3 @@ function destructivelyRemoveElementFromEndOfArray(array){
 destructivelyRemoveElementFromEndOfArray([1, 2, 3]);
 
 
-
-
-
