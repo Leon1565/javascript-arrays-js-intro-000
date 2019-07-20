@@ -9,6 +9,6 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, element){
   return chocolateBars;
 }
 function addElementToEndOfArray(chocolateBars, element){
-  chocolateBars[chocolateBars.length] = element;
+  chocolateBars
   return chocolateBars;
 }
