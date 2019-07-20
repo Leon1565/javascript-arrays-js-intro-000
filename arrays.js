@@ -18,8 +18,9 @@ function destructivelyAddElementToEndOfArray(array, element){
 }
 destructivelyAddElementToEndOfArray([1], 'foo');
 function accessElementInArray(array, index){
-  return array[index]
+  return array[index];
 }
+accessElementInArray([1, 2, 3], 2);
 
 
 describe('accessElementInArray(array, index)', () => {
