@@ -21,10 +21,3 @@ function accessElementInArray(array, index){
   return array[index];
 }
 accessElementInArray([1, 2, 3], 2);
-
-
-describe('accessElementInArray(array, index)', () => {
-    it('accesses the element in array at the given index', () => {
-      expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
-    })
-  })
