@@ -1,2 +1,3 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-var 
+var element = "foo";
+
