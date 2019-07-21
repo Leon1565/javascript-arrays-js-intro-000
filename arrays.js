@@ -19,4 +19,5 @@ function accessElementInArray(chocolateBars, index){
   chocolateBars[index];
   return chocolateBars;
 }
+accessElementInArray(chocolateBars, 2);
 
