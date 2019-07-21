@@ -24,6 +24,6 @@ function destructivelyRemoveElementFromBeginningOfArray(chocolateBars, element){
 }
 function removeElementFromBeginningOfArray(chocolateBars){
   chocolateBars.shift();
-  return chocolateBars.shift();
+  return chocolateBars;
 }
 
