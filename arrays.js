@@ -15,3 +15,4 @@ function destructivelyAddElementToEndOfArray(chocolateBars, element){
   chocolateBars.push(element);
   return chocolateBars;
 }
+
